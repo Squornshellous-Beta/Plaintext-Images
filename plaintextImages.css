@@ -1,0 +1,290 @@
+@keyframes ultimateReward {
+	0%, 81.31%, 100% {
+		color:#a10000;
+		text-shadow:-1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee, 1px 1px 0 #eee;
+	}
+	56.07% {
+		color:#ab1900;
+		text-shadow:-1px -1px 0 #efd6d6, 1px -1px 0 #efd6d6, -1px 1px 0 #efd6d6, 1px 1px 0 #efd6d6;
+	}
+	57.94% {
+		color:#b43100;
+		text-shadow:-1px -1px 0 #f0bebe, 1px -1px 0 #f0bebe, -1px 1px 0 #f0bebe, 1px 1px 0 #f0bebe;
+	}
+	59.81% {
+		color:#bd4a00;
+		text-shadow:-1px -1px 0 #f1a6a6, 1px -1px 0 #f1a6a6, -1px 1px 0 #f1a6a6, 1px 1px 0 #f1a6a6;
+	}
+	61.68% {
+		color:#c76200;
+		text-shadow:-1px -1px 0 #f28f8f, 1px -1px 0 #f28f8f, -1px 1px 0 #f28f8f, 1px 1px 0 #f28f8f;
+	}
+	63.55% {
+		color:#d07b01;
+		text-shadow:-1px -1px 0 #f37777, 1px -1px 0 #f37777, -1px 1px 0 #f37777, 1px 1px 0 #f37777;
+	}
+	65.42% {
+		color:#d99401;
+		text-shadow:-1px -1px 0 #f35f5f, 1px -1px 0 #f35f5f, -1px 1px 0 #f35f5f, 1px 1px 0 #f35f5f;
+	}
+	67.29% {
+		color:#e3ad01;
+		text-shadow:-1px -1px 0 #f44747, 1px -1px 0 #f44747, -1px 1px 0 #f44747, 1px 1px 0 #f44747;
+	}
+	69.16% {
+		color:#ecc501;
+		text-shadow:-1px -1px 0 #f53030, 1px -1px 0 #f53030, -1px 1px 0 #f53030, 1px 1px 0 #f53030;
+	}
+	71.03% {
+		color:#f6de01;
+		text-shadow:-1px -1px 0 #f61717, 1px -1px 0 #f61717, -1px 1px 0 #f61717, 1px 1px 0 #f61717;
+	}
+	72.90% {
+		color:#fff601;
+		text-shadow:-1px -1px 0 #f70000, 1px -1px 0 #f70000, -1px 1px 0 #f70000, 1px 1px 0 #f70000;
+	}
+	73.83% {
+		color:#fefefe;
+		text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	}
+	74.77% {
+		color:#fff601;
+		text-shadow:-1px -1px 0 #f70000, 1px -1px 0 #f70000, -1px 1px 0 #f70000, 1px 1px 0 #f70000;
+	}
+	75.7% {
+		color:#fefefe;
+		text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	}
+	76.64% {
+		color:#fff601;
+		text-shadow:-1px -1px 0 #f70000, 1px -1px 0 #f70000, -1px 1px 0 #f70000, 1px 1px 0 #f70000;
+	}
+	77.57% {
+		color:#ecc501;
+		text-shadow:-1px -1px 0 #f53030, 1px -1px 0 #f53030, -1px 1px 0 #f53030, 1px 1px 0 #f53030;
+	}
+	78.5% {
+		color:#d99401;
+		text-shadow:-1px -1px 0 #f35f5f, 1px -1px 0 #f35f5f, -1px 1px 0 #f35f5f, 1px 1px 0 #f35f5f;
+	}
+	79.44% {
+		color:#c76200;
+		text-shadow:-1px -1px 0 #f28f8f, 1px -1px 0 #f28f8f, -1px 1px 0 #f28f8f, 1px 1px 0 #f28f8f;
+	}
+	80.37% {
+		color:#b43100;
+		text-shadow:-1px -1px 0 #f0bebe, 1px -1px 0 #f0bebe, -1px 1px 0 #f0bebe, 1px 1px 0 #f0bebe;
+	}
+}
+@keyframes flicker {
+	0%, 100% {color:var(--color_1);}
+	50% {color:var(--color_2);}
+}
+@keyframes tricksterText {
+	0%, 100% {color:#ffd1d1;}
+	14.29% {color:#ffe6d1;}
+	28.57% {color:#fff6d1;}
+	42.86% {color:#d1ffe3;}
+	57.14% {color:#d1f9ff;}
+	71.43% {color:#d1dcff;}
+	85.71% {color:#f0d1ff;}
+}
+.ultimate_reward {
+	color:#a10000;
+	animation:ultimateReward 5350ms step-end infinite;
+}
+.universe_blue {
+	--color_1:#001e82;
+	--color_2:#003bff;
+	color:var(--color_1);
+	animation:flicker 100ms step-end infinite;
+}
+.universe_red {
+	--color_1:#b30000;
+	--color_2:#f20000;
+	color:var(--color_1);
+	animation:flicker 100ms step-end infinite;
+}
+/* Why are these all slightly different shades of green? */
+.green_sun {
+	--color_1:#00ed4f;
+	--color_2:#00d246;
+	color:var(--color_1);
+	animation:flicker 100ms step-end infinite;
+}
+.green_mother_fucking_sun {
+	--color_1:#00ed4f;
+	--color_2:#7fff66;
+	color:var(--color_1);
+	animation:flicker 100ms step-end infinite;
+}
+.th3_gr33n_sun {
+	--color_1:#00ed4f;
+	--color_2:#2aff00;
+	color:var(--color_1);
+	animation:flicker 100ms step-end infinite;
+}
+/* The world may never know. */
+.exclamation {
+	--color_1:#f80600;
+	--color_2:#fff;
+	color:var(--color_1);
+	animation:flicker 100ms step-end infinite;
+}
+.text_image {
+	color:transparent;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-position:center;
+	word-wrap:initial;
+}
+.full_width_image {
+	width:650px;
+	position:relative;
+	left:-25px;
+}
+.small4 {
+	font-size:6px;
+}
+.small5 {
+	font-size:8px;
+}
+.small6 {
+	font-size:9px;
+}
+.small_block {
+	font-size:6px;
+	line-height:1.25;
+	display:inline-block;
+	width:255px;
+}
+.giant {
+	width:530px;
+	display:inline-block;
+	line-height:0.7;
+}
+.blur1 {
+	filter:blur(1px);
+}
+.hidden {
+	display:none;
+}
+.wizard {
+	font-size:18px;
+	font-family:"Comic Sans MS", "Comic Sans", cursive;
+	font-weight:normal;
+	width:450px;
+	display:inline-block;
+	margin-left:45px;
+}
+.wizard_sports {
+	font-size:18px;
+	font-family:"Comic Sans MS", "Comic Sans", cursive;
+	font-weight:normal;
+}
+.english_o {
+	background-image:url(assets://storyfiles/hs2/scraps/o.gif);
+	width:10px;
+	height:16px;
+}
+.arquius_shades {
+	background-image:url(assets://storyfiles/hs2/scraps/arquius_shades.png);
+	width:38px;
+	height:16px;
+	text-align:right;
+}
+.arquius_fucking {
+	background-image:url(assets://storyfiles/hs2/scraps/arspritetxt_fucking.gif);
+	background-position:0 3px;
+	width:56px;
+}
+.arquius_shit {
+	background-image:url(assets://storyfiles/hs2/scraps/arspritetxt_shit.gif);
+	background-position:0 3px;
+	width:30px;
+}
+.arquius_bitch {
+	background-image:url(assets://storyfiles/hs2/scraps/arspritetxt_bitch.gif);
+	background-position:0 3px;
+	width:40px;
+}
+.arquius_hell {
+	background-image:url(assets://storyfiles/hs2/scraps/arspritetxt_hell.gif);
+	background-position:0 3px;
+	width:32px;
+}
+.arquius_fuckers {
+	background-image:url(assets://storyfiles/hs2/scraps/arspritetxt_fuckers.gif);
+	background-position:0 3px;
+	width:55px;
+}
+.arquius_damned {
+	background-image:url(assets://storyfiles/hs2/scraps/arspritetxt_damned.gif);
+	background-position:0 3px;
+	width:47px;
+}
+.scorpio {
+	width:15px;
+	height:16px;
+	background-image:url(assets://storyfiles/hs2/scraps/scorpio.gif);
+}
+.pageBody.trickster[data-pageid^="6/00761"] .log .logContent,
+.pageBody.trickster[data-pageid^="6/00762"] .log .logContent,
+.pageBody.trickster[data-pageid^="6/00763"] .log .logContent,
+.pageBody.trickster[data-pageid^="6/00764"] .log .logContent,
+.pageBody.trickster[data-pageid^="6/00765"] .log .logContent
+ {
+	color:#ffd1d1;
+	animation:tricksterText 280ms step-end infinite;
+}
+.black {
+	color:#000;
+}
+.john {
+	color:#0715cd;
+}
+.rose {
+	color:#b536da;
+}
+.dave {
+	color:#e00707;
+}
+.jade {
+	color:#4ac925;
+}
+.jane {
+	color:#00d5f2;
+}
+.jake {
+	color:#1f9400;
+}
+.pageBody.trickster .roxy {
+	color:#fbbaff;
+}
+.roxy {
+	color:#ff6ff2;
+}
+.pageBody.trickster .dirk {
+	color:#ffcc00;
+}
+.erisol {
+	color:#50f520;
+}
+.karkat {
+	color:#626262;
+}
+.fefeta {
+	color:#b536da;
+}
+.vriska, .aranea {
+	color:#005682;
+}
+.arquius {
+	color:#e00707;
+}
+.gamzee {
+	color:#2b0057;
+}
+.condesce {
+	color:#77003c;
+}
