@@ -106,6 +106,7 @@
 	animation:flicker 100ms step-end infinite;
 }
 /* Why are these all slightly different shades of green? */
+/* The world may never know. */
 .green_sun {
 	--color_1:#00ed4f;
 	--color_2:#00d246;
@@ -124,7 +125,6 @@
 	color:var(--color_1);
 	animation:flicker 100ms step-end infinite;
 }
-/* The world may never know. */
 .exclamation {
 	--color_1:#f80600;
 	--color_2:#fff;
@@ -159,9 +159,9 @@
 	width:255px;
 }
 .giant {
-	width:530px;
 	display:inline-block;
 	line-height:0.7;
+	margin:auto -7px;
 }
 .blur1 {
 	filter:blur(1px);
